@@ -181,7 +181,18 @@ body {
     line-height: 2;
 }
 
-
+table {
+    margin: 15px;
+    table-layout: fixed;
+    width: 350px;
+}
+  
+  td {
+    margin: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
 
 
 
